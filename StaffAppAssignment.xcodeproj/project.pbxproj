@@ -22,6 +22,12 @@
 		11B1275822E6F2B300DEFAF4 /* StaffListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1275722E6F2B300DEFAF4 /* StaffListCell.swift */; };
 		11B1275A22E6FCD900DEFAF4 /* StaffDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1275922E6FCD900DEFAF4 /* StaffDetailsViewController.swift */; };
 		11B1275C22E6FD5900DEFAF4 /* StaffDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1275B22E6FD5900DEFAF4 /* StaffDetailViewModel.swift */; };
+		11B1275D22E710AC00DEFAF4 /* StaffDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1275B22E6FD5900DEFAF4 /* StaffDetailViewModel.swift */; };
+		11B1275E22E710BB00DEFAF4 /* StaffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1274F22E6E80C00DEFAF4 /* StaffModel.swift */; };
+		11B1275F22E710C100DEFAF4 /* StaffListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1275322E6EA8100DEFAF4 /* StaffListViewModel.swift */; };
+		11B1276022E710C400DEFAF4 /* StaffCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1275522E6EC6700DEFAF4 /* StaffCellViewModel.swift */; };
+		11B1276222E7113200DEFAF4 /* StaffDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1276122E7113200DEFAF4 /* StaffDetailTests.swift */; };
+		11B1276322E7136600DEFAF4 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1274B22E6DE2100DEFAF4 /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,7 @@
 		11B1275722E6F2B300DEFAF4 /* StaffListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffListCell.swift; sourceTree = "<group>"; };
 		11B1275922E6FCD900DEFAF4 /* StaffDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffDetailsViewController.swift; sourceTree = "<group>"; };
 		11B1275B22E6FD5900DEFAF4 /* StaffDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffDetailViewModel.swift; sourceTree = "<group>"; };
+		11B1276122E7113200DEFAF4 /* StaffDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffDetailTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +137,7 @@
 			children = (
 				11B1272722E6CE5700DEFAF4 /* StaffAppAssignmentTests.swift */,
 				11B1272922E6CE5700DEFAF4 /* Info.plist */,
+				11B1276122E7113200DEFAF4 /* StaffDetailTests.swift */,
 			);
 			path = StaffAppAssignmentTests;
 			sourceTree = "<group>";
@@ -337,7 +345,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B1275E22E710BB00DEFAF4 /* StaffModel.swift in Sources */,
+				11B1275D22E710AC00DEFAF4 /* StaffDetailViewModel.swift in Sources */,
+				11B1276022E710C400DEFAF4 /* StaffCellViewModel.swift in Sources */,
 				11B1272822E6CE5700DEFAF4 /* StaffAppAssignmentTests.swift in Sources */,
+				11B1275F22E710C100DEFAF4 /* StaffListViewModel.swift in Sources */,
+				11B1276322E7136600DEFAF4 /* ApiService.swift in Sources */,
+				11B1276222E7113200DEFAF4 /* StaffDetailTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

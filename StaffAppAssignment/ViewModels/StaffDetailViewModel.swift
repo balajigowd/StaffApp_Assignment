@@ -24,13 +24,17 @@ struct StaffDetailViewModel {
     }
     
     func getRank() -> String {
+        return "Rank: \(self.rank())"
+    }
+    
+    func rank() -> String {
         let title = staff.title
         if (title == TitleType.associate.rawValue || title == TitleType.seniorAssociate.rawValue) {
-            return "Rank: \(rank.slave.rawValue)"
+            return Rank.slave.rawValue
         } else if (title == TitleType.avp.rawValue || title == TitleType.vp.rawValue) {
-            return "Rank: \(rank.boss.rawValue)"
+            return Rank.boss.rawValue
         } else {
-            return "Rank: \(rank.na)"
+            return Rank.na.rawValue
         }
     }
     
@@ -72,7 +76,7 @@ enum TitleType: String {
     case vp = "VP"
 }
 
-enum rank: String {
+enum Rank: String {
     case slave = "Slave"
     case boss = "Boss"
     case na = "N/A"
